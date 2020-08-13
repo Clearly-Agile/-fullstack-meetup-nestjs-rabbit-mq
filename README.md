@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://www.clearlyagileinc.com/" target="blank"><img src=https://github.com/Clearly-Agile/-fullstack-meetup-nestjs-rabbit-mq/raw/master/logo.png" width="320" alt="FS Logo" /></a>
+  <a href="http://www.clearlyagileinc.com/" target="blank"><img src="https://raw.githubusercontent.com/Clearly-Agile/-fullstack-meetup-nestjs-rabbit-mq/master/logo.png" width="320" alt="FS Logo" /></a>
 </p>
 
 [travis-image]: https://api.travis-ci.org/nestjs/nest.svg?branch=master
