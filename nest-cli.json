@@ -1,0 +1,30 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/notifications/src",
+  "monorepo": true,
+  "root": "apps/notifications",
+  "compilerOptions": {
+    "webpack": true,
+    "tsConfigPath": "apps/notifications/tsconfig.app.json"
+  },
+  "projects": {
+    "notifications": {
+      "type": "application",
+      "root": "apps/notifications",
+      "entryFile": "main",
+      "sourceRoot": "apps/notifications/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/notifications/tsconfig.app.json"
+      }
+    },
+    "notification-consumer": {
+      "type": "application",
+      "root": "apps/notification-consumer",
+      "entryFile": "main",
+      "sourceRoot": "apps/notification-consumer/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/notification-consumer/tsconfig.app.json"
+      }
+    }
+  }
+}
